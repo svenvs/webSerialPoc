@@ -1,0 +1,23 @@
+{
+  "name": "webserialpoc",
+  "version": "1.0.0",
+  "description": "just a fun poc with the serial api of chrome. Let us controll arduinos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --ss ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svenvs/webSerialPoc.git"
+  },
+  "author": "Sven van Straalen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svenvs/webSerialPoc/issues"
+  },
+  "homepage": "https://github.com/svenvs/webSerialPoc#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.5"
+  }
+}
