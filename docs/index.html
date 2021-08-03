@@ -1,19 +1,18 @@
 <html>
-hi!
 <body>
 <script id="__bs_script__">//<![CDATA[
     document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.27.5'><\/script>".replace("HOST", location.hostname));
 //]]></script>
+<p>If the status is disconnected it might be that you need to click on ask for device or the cable is unplugged. </p>
+<p>Status is: <span>disconnected</span></p>
+<button id="ask"> Ask for device </button>
 
+<textarea style="display: block;" rows="16" cols="50"></textarea>
+<form>
+  <input></input>
+  <input type="submit"  value="Submit"> </input>
+</form>
 
-<script>
-const port = navigator.serial.requestPort();
-navigator.serial.getPorts().then((ports) => {
-  // Initialize the list of available ports with `ports` on page load.
-  console.log(ports);
-});
-
-
-</script>
+<script src="main.js"></script>
 </body>
 </html>

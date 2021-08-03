@@ -46,6 +46,9 @@ void loop() {
     executeCommand(command);
   }
 
+  Serial.println("Hello Computer");
+  delay(500);
+
   oldStateBUTTON_LEFT = newStateBUTTON_LEFT;
   oldStateBUTTON_RIGHT = newStateBUTTON_RIGHT;
 }
