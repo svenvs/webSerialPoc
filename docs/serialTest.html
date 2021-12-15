@@ -1,0 +1,23 @@
+<html>
+<body>
+<script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.27.5'><\/script>".replace("HOST", location.hostname));
+//]]></script>
+<p>Click on the button below. It will show a prompt of connected serial devices. verify if its there print screen is in the email to see what you are looking for</p>
+<button id="ask"> Ask for device </button>
+
+<script>
+
+let port;
+let lineReader;
+const askButton = document.querySelector('#ask');
+const textareaElm = document.querySelector('textarea');
+
+askButton.addEventListener('click', ()=> {
+  port = navigator.serial.requestPort();
+  console.log(port)
+})
+
+</script>
+</body>
+</html>

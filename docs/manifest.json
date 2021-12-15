@@ -1,0 +1,13 @@
+{
+  "name": "blink",
+  "version": "2021.11.0",
+  "new_install_prompt_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        { "path": "Blink.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
